@@ -1,0 +1,16 @@
+Git Diff
+
+git rm <filename> ----to delete the file
+
+git reset ---to delete tha commit
+git checkout -b <branch name> ---to create branch from master
+
+git stash ---to save the changes in temp
+git stash pop--it will delete the stash and add to local as well
+git stash apply--it will not delete in stash n add to local directory
+
+git stash -p ---to stash partial stash file
+
+git stash clear -- to delete the stash
+
+git rebase master --to add master commit to branch between commits 
